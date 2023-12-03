@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+
+body {
+    background-color: #EDF2F8;
+}
+
+
+
+main {
+    display: grid;
+    width: 90vw;
+    margin: auto;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+
+
+div.container {
+    padding: 20px;
+    border-radius: 15px;
+}
+div.container p {
+    color: #909193;
+    font-size: 13px;
+}
+div.container h1 {
+    font-size: 1.5em;
+}
+
+div#zc1 {
+    background-color: #733FC8;
+    color: white;
+}
+div#zc2 {
+    background-color: #49556B;
+    color: white;
+}
+div#zc3, div#zc5 {
+    background-color: white;
+}
+div#zc4 {
+    background-color: #18202D;
+    color: white;
+}
+
+div.profile {
+    display: flex;
+    gap: 20px;
+}
+
+div#zpic1 {
+    width: 40px;
+    height: 40px;
+
+    background-image: url(../images/image-daniel.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    border-radius: 50px;
+    border: 1px solid #A784D6;
+}
