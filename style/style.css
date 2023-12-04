@@ -33,19 +33,20 @@ main {
 
 
 div.container {
-    padding: 20px;
+    padding: 25px;
     border-radius: 15px;
 }
-div.container p {
-    color: #909193;
-    font-size: 13px;
-}
 div.container h1 {
-    font-size: 1.5em;
+    margin: 20px 0px;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 div#zc1 {
     background-color: #733FC8;
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-position: right top;
+    background-repeat: no-repeat;
     color: white;
 }
 div#zc2 {
@@ -62,7 +63,14 @@ div#zc4 {
 
 div.profile {
     display: flex;
-    gap: 20px;
+    gap: 15px;
+}
+div.profile h2 {
+    font-size: 16px;
+}
+div.profile p {
+    color: #909193;
+    font-size: 13px;
 }
 
 div#zpic1 {
@@ -75,4 +83,54 @@ div#zpic1 {
 
     border-radius: 50px;
     border: 1px solid #A784D6;
+}
+div#zpic2 {
+    width: 40px;
+    height: 40px;
+    
+    background-image: url(../images/image-jonathan.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    border-radius: 50px;
+    border: 1px solid white;
+}
+div#zpic3 {
+    width: 40px;
+    height: 40px;
+    
+    background-image: url(../images/image-jeanette.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    border-radius: 50px;
+    border: 1px solid white;
+}
+div#zpic4 {
+    width: 40px;
+    height: 40px;
+    
+    background-image: url(../images/image-patrick.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    border-radius: 50px;
+    border: 1px solid #A784D6;
+}
+div#zpic5 {
+    width: 40px;
+    height: 40px;
+    
+    background-image: url(../images/image-kira.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+div.content p {
+    color: #909193;
+    font-size: 15px;
+    margin-bottom: 15px;
 }
