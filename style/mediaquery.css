@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    main {
+        display: flex;
+        width: 90vw;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    div.container {
+        width: 330px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1350px) {
+    main {
+        display: grid;
+        width: 90vw;
+        gap: 35px;
+        grid-template-areas: 
+        'zc1 zc1  zc1 zc2 zc5'
+        'zc3 zc4 zc4 zc4 zc5'
+        ;
+    }
+    #zc1 {
+        grid-area: zc1;
+    }
+    #zc2 {
+        grid-area: zc2;
+    }
+    #zc3 {
+        grid-area: zc3;
+    }
+    #zc4 {
+        grid-area: zc4;
+    }
+    #zc5 {
+        grid-area: zc5;
+    }
+
+    div.content h1 {
+        font-size: 25px;
+    }
+    div.content p {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (min-width: 1350px) {
+    main {
+        display: grid;
+        width: 70vw;
+        gap: 35px;
+        grid-template-areas: 
+        'zc1 zc1  zc1 zc2 zc5'
+        'zc3 zc4 zc4 zc4 zc5'
+        ;
+    }
+    #zc1 {
+        grid-area: zc1;
+    }
+    #zc2 {
+        grid-area: zc2;
+    }
+    #zc3 {
+        grid-area: zc3;
+    }
+    #zc4 {
+        grid-area: zc4;
+    }
+    #zc5 {
+        grid-area: zc5;
+    }
+
+    div.content h1 {
+        font-size: 25px;
+    }
+    div.content p {
+        font-size: 18px;
+    }
+}
