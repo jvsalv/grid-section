@@ -24,4 +24,4 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://jvsalv.github.io/grid-section)
+- Live Site URL: [jvsalv.github.io/grid-section](https://jvsalv.github.io/grid-section)
